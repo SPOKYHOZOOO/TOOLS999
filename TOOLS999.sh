@@ -1640,6 +1640,7 @@ if [ $HOZOO = 98 ] || [ $HOZOO = 98 ]
     clear
     echo -e $green" Installing..."
     sleep 1
+    echo $green "
     apt update 
 apt install git 
 apt install python
@@ -1650,6 +1651,7 @@ ls
 cd wifi-hacking.py
 ls
 python3 wifi-hacking.py
+"
     clear
     echo -e $green"Done Installed..."
 fi
@@ -1658,13 +1660,14 @@ if [ $HOZOO = 99 ] || [ $HOZOO = 99 ]
     clear
     echo -e $green" Installing..."
     sleep 1
+echo $green"
     apt update && apt upgrade
 pkg install git python python2
 git clone https://github.com/naiyan-official/wifisky 
 chmod +x install.sh
 bash install.sh
  python2 wifisky.py
-
+"
     clear
     echo -e $green"Done Installed..."
 fi
@@ -1673,10 +1676,12 @@ if [ $HOZOO = 100 ] || [ $HOZOO = 100 ]
     clear
     echo -e $green" Installing..."
     sleep 1
+    echo $green"
     git clone https://github.com/JoyGhoshs/Airattackit/
 cd Airattackit
 chmod +x install.sh
 ./install.sh
+"
     clear
     echo -e $green"Done Installed..."
 fi
