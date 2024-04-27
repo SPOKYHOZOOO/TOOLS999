@@ -1626,18 +1626,18 @@ if [ $HOZOO = 96 ] || [ $HOZOO = 96 ]
 fi
 if [ $HOZOO = 97 ] || [ $HOZOO = 97 ]
     then
-    clear
+    
     echo -e $green" Installing..."
     sleep 1
      git clone https://github.com/d4az/gmail-hack.git 
       chmod +x hack-gmail.sh     
 ./hack-gmail.sh --help
-    clear
+   
     echo -e $green"Done Installed..."
 fi
 if [ $HOZOO = 98 ] || [ $HOZOO = 98 ]
     then
-    clear
+   
     echo -e $green" Installing..."
     sleep 1
     echo $green "
@@ -1652,12 +1652,12 @@ cd wifi-hacking.py
 ls
 python3 wifi-hacking.py
 "
-    clear
+    
     echo -e $green"Done Installed..."
 fi
 if [ $HOZOO = 99 ] || [ $HOZOO = 99 ]
     then
-    clear
+    
     echo -e $green" Installing..."
     sleep 1
 echo $green"
@@ -1668,21 +1668,21 @@ chmod +x install.sh
 bash install.sh
  python2 wifisky.py
 "
-    clear
+    
     echo -e $green"Done Installed..."
 fi
 if [ $HOZOO = 100 ] || [ $HOZOO = 100 ]
     then
-    clear
+    
     echo -e $green" Installing..."
     sleep 1
-    echo $green"
+    echo $green""
     git clone https://github.com/JoyGhoshs/Airattackit/
 cd Airattackit
 chmod +x install.sh
 ./install.sh
-"
-    clear
+""
+    
     echo -e $green"Done Installed..."
 fi
 fi
