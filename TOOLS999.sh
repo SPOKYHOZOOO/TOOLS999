@@ -1,4 +1,4 @@
-#!/data/data/com.termux/files/usr/bin/bash
+ #!/data/data/com.termux/files/usr/bin/bash
 #hozoo
 clear
 blue='\033[34;1m'
@@ -1637,7 +1637,9 @@ if [ $HOZOO = 97 ] || [ $HOZOO = 97 ]
 fi
 if [ $HOZOO = 98 ] || [ $HOZOO = 98 ]
     then
-    
+    clear
+    echo -e $green" Installing..."
+    sleep 1
     apt update 
 apt install git 
 apt install python
@@ -1649,11 +1651,13 @@ cd wifi-hacking.py
 ls
 python3 wifi-hacking.py
     clear
-    
+    echo -e $green"Done Installed..."
+fi
 if [ $HOZOO = 99 ] || [ $HOZOO = 99 ]
     then
-    
-    
+    clear
+    echo -e $green" Installing..."
+    sleep 1
     apt update && apt upgrade
 pkg install git python python2
 git clone https://github.com/naiyan-official/wifisky 
@@ -1661,30 +1665,32 @@ chmod +x install.sh
 bash install.sh
  python2 wifisky.py
 
-    
-    
+    clear
+    echo -e $green"Done Installed..."
 fi
 if [ $HOZOO = 100 ] || [ $HOZOO = 100 ]
     then
     clear
-    
+    echo -e $green" Installing..."
+    sleep 1
     git clone https://github.com/JoyGhoshs/Airattackit/
 cd Airattackit
 chmod +x install.sh
 ./install.sh
-    
-    
+    clear
+    echo -e $green"Done Installed..."
 fi
 fi
 if [ $HOZOO = UPDATE ] || [ $HOZOO = UPDATE ]
     then
-    git clone https://github.com/SPOKYHOZOOO/TOOLS999
-
-cd TOOLS999
-
-chmod 777 TOOLS999
-
-bash TOOLS999.sh
+    clear
+    echo -e $green" Installing..."
+    sleep 1
+git clone https://github.com/SPOKYHOZOOO/KANDURA-ANONYOMOUS
+ cd KANDURA-ANONYOMOUS
+bash TOOLS8.sh
+  clear
+    echo -e $green"Done Installed..."
 fi
 
 if [ $HOZOO = LAPOR ] || [ $HOZOO = LAPOR ]
